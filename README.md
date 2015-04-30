@@ -1,5 +1,5 @@
 karma-sinon-chrome
-===
+==================
 
 A Karma plugin - adapter for sinon chrome 
 
@@ -19,7 +19,8 @@ describe("sinon chrome", function() {
 });
 ```
 
-## Installation
+Installation
+------------
 
 ```
 $ npm i --save-dev karma-sinon-chrome
@@ -39,6 +40,7 @@ module.exports = function(config) {
 };
 ```
 
-## License
+License
+-------
 
 [MIT](http://9joneg.mit-license.org/)
