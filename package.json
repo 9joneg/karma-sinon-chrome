@@ -1,7 +1,7 @@
 {
   "name": "karma-sinon-chrome",
   "description": "A Karma plugin - adapter for sinon-chrome",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "9joneg",
   "dependencies": {
     "sinon": "^1.14.1",
