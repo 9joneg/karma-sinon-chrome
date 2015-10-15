@@ -8,7 +8,8 @@ var pattern = function(file) {
 
 var framework = function(files) {
     var sinonPath = path.resolve(require.resolve("sinon"), "../../pkg/sinon.js");
-    files.unshift(pattern(require.resolve("sinon-chrome")));
+    var sinonChromePath = path.resolve(require.resolve("sinon-chrome"), "../../chrome.js");
+    files.unshift(pattern(sinonChromePath));
     files.unshift(pattern(sinonPath));
 };
 
