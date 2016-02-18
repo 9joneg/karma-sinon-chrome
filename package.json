@@ -5,7 +5,7 @@
   "author": "9joneg",
   "dependencies": {
     "sinon": "^1.17.1",
-    "sinon-chrome": "^0.2.1"
+    "sinon-chrome": "^1.1.2"
   },
   "keywords": [
     "karma-plugin",
