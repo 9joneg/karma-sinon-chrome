@@ -7,10 +7,8 @@ var pattern = function (file) {
 }
 
 var framework = function (files) {
-  var sinonPath = path.resolve(require.resolve('sinon'), '../../pkg/sinon.js')
   var sinonChromePath = path.resolve(require.resolve('sinon-chrome'), '../../dist/sinon-chrome.latest.js')
   files.unshift(pattern(sinonChromePath))
-  files.unshift(pattern(sinonPath))
 }
 
 framework.$inject = ['config.files']
