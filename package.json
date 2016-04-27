@@ -8,6 +8,9 @@
     "sinon-chrome": "^1.1.2"
   },
   "devDependencies": {
+    "async": "^2.0.0-rc.3",
+    "di": "0.0.1",
+    "mocha": "^2.4.5",
     "snazzy": "^3.0.1",
     "standard": "^6.0.8"
   },
@@ -20,6 +23,6 @@
   "repository": "9joneg/karma-sinon-chrome",
   "scripts": {
     "lint": "standard | snazzy",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   }
 }
