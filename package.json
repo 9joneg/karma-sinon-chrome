@@ -7,14 +7,19 @@
     "sinon": "^1.17.1",
     "sinon-chrome": "^1.1.2"
   },
+  "devDependencies": {
+    "snazzy": "^3.0.1",
+    "standard": "^6.0.8"
+  },
   "keywords": [
-    "karma-plugin",
-    "karma-framework"
+    "karma-framework",
+    "karma-plugin"
   ],
   "license": "MIT",
   "main": "index.js",
   "repository": "9joneg/karma-sinon-chrome",
   "scripts": {
+    "lint": "standard | snazzy",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
