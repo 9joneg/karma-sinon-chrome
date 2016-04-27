@@ -3,6 +3,8 @@ karma-sinon-chrome
 
 A Karma plugin - adapter for sinon chrome 
 
+[![Build Status](https://travis-ci.org/9joneg/karma-sinon-chrome.svg?branch=master)](https://travis-ci.org/9joneg/karma-sinon-chrome)
+
 ```js
 it('should create a new tab', function() {
   chrome.browserAction.onClicked.addListener(function() {
