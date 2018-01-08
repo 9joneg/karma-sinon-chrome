@@ -4,7 +4,7 @@
   "version": "0.2.0",
   "author": "9joneg",
   "dependencies": {
-    "sinon-chrome": "^1.1.2"
+    "sinon-chrome": "^2.2.1"
   },
   "devDependencies": {
     "di": "0.0.1",
